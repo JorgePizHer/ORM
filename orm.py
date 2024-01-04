@@ -4,7 +4,6 @@ import random
 personas = []
 numeropersonas = 20
 
-
 class Persona:
     def __init__(self):
         self.posx = random.randint(0,1024)
@@ -22,26 +21,31 @@ class Persona:
                            self.posy+self.radio/2,
                            fill=self.color)
     def mueve(self):
-        lienzo.move(self.entidad,500,0)
+        lienzo.move(self.entidad,5,0)
         
-
+# Creo una ventana
 raiz = tk.Tk()
 
+# En la ventana creo un lienzo
 lienzo = tk.Canvas (width=1024,height=1024)
 lienzo.pack()
 
+# En la colección introduzco instancias de personas
 for i in range(0,numeropersonas):
     personas.append(Persona())
-
+    
+# Pinto cada una de las personas en la colección
 for persona in personas:
     persona.dibuja()
     
-for persona in personas:
-    persona.mueve()
+# Creo un bucle repetitivo
+def bucle():
+    # Muevo cada una de las personas en la colección
+    for persona in personas:
+        persona.mueve()
+    raiz.after(1000,bucle)
 
-print (personas)
-
-persona = Persona()
-persona.dibuja()
+# Ejecuto el bucle
+bucle()
 
 raiz.mainloop()
