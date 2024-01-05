@@ -1,14 +1,15 @@
 import tkinter as tk
 import random
 import math
+import json
 
 personas = []
 numeropersonas = 20
 
 class Persona:
     def __init__(self):
-        self.posx = random.randint(0,1024)
-        self.posy = random.randint(0,1024)
+        self.posx = random.randint(0,840)
+        self.posy = random.randint(0,840)
         self.radio = 30
         self.direccion = random.randint(0,360)
         self.color = "blue"
@@ -30,16 +31,24 @@ class Persona:
         self.posy += math.sin(self.direccion)
         
     def colisiona(self):
-        if self.posx < 0 or self.posx > 1024 or self.posy < 0 or self.posy > 1024:
+        if self.posx < 0 or self.posx > 840 or self.posy < 0 or self.posy > 840:
             self.direccion += 180
             
-        
+def guardarPersona():
+    print("Guardo a los jugadores")
+    cadena = json.dumps([vars(persona) for persona in personas])
+    print(cadena)
+    
 # Creo una ventana
 raiz = tk.Tk()
 
 # En la ventana creo un lienzo
-lienzo = tk.Canvas (width=1024,height=1024)
+lienzo = tk.Canvas (raiz,width=840,height=840)
 lienzo.pack()
+
+#Botón de guardar
+boton = tk.Button(raiz,text="Guardar",command=guardarPersona)
+boton.pack()
 
 # En la colección introduzco instancias de personas
 for i in range(0,numeropersonas):
