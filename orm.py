@@ -22,9 +22,17 @@ class Persona:
                            self.posy+self.radio/2,
                            fill=self.color)
     def mueve(self):
+        self.colisiona()
         lienzo.move(self.entidad,
                     math.cos(self.direccion),
                     math.sin(self.direccion))
+        self.posx += math.cos(self.direccion)
+        self.posy += math.sin(self.direccion)
+        
+    def colisiona(self):
+        if self.posx < 0 or self.posx > 1024 or self.posy < 0 or self.posy > 1024:
+            self.direccion += 180
+            
         
 # Creo una ventana
 raiz = tk.Tk()
@@ -46,7 +54,7 @@ def bucle():
     # Muevo cada una de las personas en la colección
     for persona in personas:
         persona.mueve()
-    raiz.after(100,bucle)
+    raiz.after(10,bucle)
 
 # Ejecuto el bucle
 bucle()
