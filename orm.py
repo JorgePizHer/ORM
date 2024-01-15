@@ -2,9 +2,11 @@ import tkinter as tk
 import random
 import math
 import json
+import sqlite3
 
+#Declaración de variables globales
 personas = []
-numeropersonas = 5
+numeropersonas = 500
 
 class Persona:
     def __init__(self):
@@ -36,10 +38,32 @@ class Persona:
             
 def guardarPersona():
     print("Guardo a los jugadores")
+    
+    #Guardo archivo json
     cadena = json.dumps([vars(persona) for persona in personas])
     print(cadena)
-    archivo = open("jugadores.json",'w')
+    archivo = open("jugadores2.json",'w')
     archivo.write(cadena)
+    
+    #Guardo los personajes en SQL
+    conexion = sqlite3.connect("jugadores.sqlite3")
+    cursor = conexion.cursor()
+
+    for persona in personas:
+        cursor.execute('''
+            INSERT INTO jugadores
+            VALUES (
+                NULL,
+                '''+str(persona.posx)+''',
+                '''+str(persona.posy)+''',
+                '''+str(persona.radio)+''',
+                '''+str(persona.direccion)+''',
+                "'''+str(persona.color)+'''",
+                "'''+str(persona.entidad)+'''"
+            )
+            ''')
+    conexion.commit()
+    conexion.close()
     
 # Creo una ventana
 raiz = tk.Tk()
@@ -54,7 +78,7 @@ boton.pack()
 
 #Cargar personas desde el disco duro
 try:
-    carga = open("jugadores.json",'r')
+    carga = open("jugadores2.json",'r')
     cargado = carga.read()
     cargadolista = json.loads(cargado)
     for elemento in cargadolista:
@@ -70,7 +94,7 @@ except:
 
 # En la colección introduzco instancias de personas en el caso de que no existan
 if len(personas) == 0:
-    numeropersonas = len(personas)
+    numeropersonas = 500
     for i in range(0,numeropersonas):
         personas.append(Persona())
     
