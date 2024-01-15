@@ -4,18 +4,18 @@ import math
 import json
 
 personas = []
-numeropersonas = 5
+numeropersonas = 100
 
 class Persona:
     def __init__(self):
         self.posx = random.randint(0,840)
         self.posy = random.randint(0,840)
-        self.radio = 100
+        self.radio = 10
         derecha = 0
         izquierda = 22
         arriba = 11
         abajo = 33
-        self.direccion = derecha
+        self.direccion = random.randint(0,360)
         colors = ["red", "green", "blue", "aquamarine", "violet", "orange"]
         color = colors[random.randint(0, 5)]
         self.color = color
@@ -60,16 +60,16 @@ boton.pack()
 
 #Cargar personas desde el disco duro
 
-try:
-    carga = open("jugadores.json",'r')
-    cargado = carga.read()
-    cargadolista = json.loads(cargado)
-    for elemento in cargadolista:
-        persona = Persona() #Creación de un nuevo objeto persona
-        persona.__dict__.update(elemento) #Se vuelca la información del elemento en la persona creada
-        personas.append(persona) #Se añade la persona al array de personas
-except:
-    print("Error")
+##try:
+##    carga = open("jugadores.json",'r')
+##    cargado = carga.read()
+##    cargadolista = json.loads(cargado)
+##    for elemento in cargadolista:
+##        persona = Persona() #Creación de un nuevo objeto persona
+##        persona.__dict__.update(elemento) #Se vuelca la información del elemento en la persona creada
+##        personas.append(persona) #Se añade la persona al array de personas
+##except:
+##    print("Error")
 
 #Al ser un bucle, se repite esto para cada uno de los elementos en cargadolista
     
@@ -77,7 +77,7 @@ except:
 
 # En la colección introduzco instancias de personas en el caso de que no existan
 if len(personas) == 0:
-    numeropersonas = len(personas)
+    numeropersonas = 100
     for i in range(0,numeropersonas):
         personas.append(Persona())
     
@@ -90,7 +90,7 @@ def bucle():
     # Muevo cada una de las personas en la colección
     for persona in personas:
         persona.mueve()
-    raiz.after(10,bucle)
+    raiz.after(1,bucle)
 
 # Ejecuto el bucle
 bucle()
