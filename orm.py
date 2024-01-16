@@ -42,17 +42,26 @@ class Persona:
                            fill="light blue")
             
     def mueve(self):
+        if self.energia > 0:
+            self.energia -=0.05
+        if self.descanso > 0:
+            self.descanso -=0.05
+
         self.colisiona()
         lienzo.move(self.entidad,
                     math.cos(self.direccion),
                     math.sin(self.direccion))
-        lienzo.move(self.entidadenergia,
-                    math.cos(self.direccion),
-                    math.sin(self.direccion))
-        lienzo.move(self.entidaddescanso,
-                    math.cos(self.direccion),
-                    math.sin(self.direccion))
-
+        lienzo.coords(self.entidadenergia,
+                    self.posx-self.radio/2,
+                    self.posy-self.radio/2 -10,
+                    self.posx+self.radio/2-(100-self.energia),
+                    self.posy-self.radio/2-6)
+        lienzo.coords(self.entidaddescanso,
+                    self.posx-self.radio/2,
+                    self.posy-self.radio/2 -16,
+                    self.posx+self.radio/2-(100-self.energia),
+                    self.posy-self.radio/2-12)
+        
         
         self.posx += math.cos(self.direccion)
         self.posy += math.sin(self.direccion)
@@ -169,7 +178,7 @@ def bucle():
     # Muevo cada una de las personas en la colección
     for persona in personas:
         persona.mueve()
-    raiz.after(10,bucle)
+    raiz.after(15,bucle)
 
 # Ejecuto el bucle
 bucle()
