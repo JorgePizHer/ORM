@@ -39,11 +39,11 @@ class Persona:
 def guardarPersona():
     print("Guardo a los jugadores")
     
-    #Guardo archivo json
-    cadena = json.dumps([vars(persona) for persona in personas])
-    print(cadena)
-    archivo = open("jugadores2.json",'w')
-    archivo.write(cadena)
+##    #Guardo archivo json
+##    cadena = json.dumps([vars(persona) for persona in personas])
+##    print(cadena)
+##    archivo = open("jugadores2.json",'w')
+##    archivo.write(cadena)
     
     #Guardo los personajes en SQL
     conexion = sqlite3.connect("jugadores.sqlite3")
@@ -77,20 +77,32 @@ boton = tk.Button(raiz,text="Guardar",command=guardarPersona)
 boton.pack()
 
 #Cargar personas desde el disco duro
-try:
-    carga = open("jugadores2.json",'r')
-    cargado = carga.read()
-    cargadolista = json.loads(cargado)
-    for elemento in cargadolista:
-        persona = Persona() #Creación de un nuevo objeto persona
-        persona.__dict__.update(elemento) #Se vuelca la información del elemento en la persona creada
-        personas.append(persona) #Se añade la persona al array de personas
-except:
-    print("Error")
+##try:
+##    carga = open("jugadores2.json",'r')
+##    cargado = carga.read()
+##    cargadolista = json.loads(cargado)
+##    for elemento in cargadolista:
+##        persona = Persona() #Creación de un nuevo objeto persona
+##        persona.__dict__.update(elemento) #Se vuelca la información del elemento en la persona creada
+##        personas.append(persona) #Se añade la persona al array de personas
+##except:
+##    print("Error")
 
 #Al ser un bucle, se repite esto para cada uno de los elementos en cargadolista
-    
-    
+
+#Cargar personas desde SQL
+
+conexion = sqlite3.connect("jugadores.sqlite3")
+cursor = conexion.cursor()
+
+cursor.execute("SELECT * FROM jugadores")
+while True:
+    fila = cursor.fetchone()
+    if fila is None:
+        break
+    print (fila)
+conexion.commit()
+conexion.close()
 
 # En la colección introduzco instancias de personas en el caso de que no existan
 if len(personas) == 0:
