@@ -6,7 +6,7 @@ import sqlite3
 
 #Declaración de variables globales
 personas = []
-numeropersonas = 500
+numeropersonas = 789
 
 class Persona:
     def __init__(self):
@@ -99,7 +99,11 @@ def guardarPersona():
                 '''+str(persona.radio)+''',
                 '''+str(persona.direccion)+''',
                 "'''+str(persona.color)+'''",
-                "'''+str(persona.entidad)+'''"
+                "'''+str(persona.entidad)+'''",
+                '''+str(persona.energia)+''',
+                '''+str(persona.descanso)+''',
+                "'''+str(persona.entidadenergia)+'''",
+                "'''+str(persona.entidaddescanso)+'''"
             )
             ''')
     conexion.commit()
@@ -152,12 +156,16 @@ try:
         persona.direccion = fila[4]
         persona.color = fila[5]
         persona.entidad = fila[6]
+        persona.energia = fila[7]
+        persona.descanso = fila[8]
+        persona.entidadenergia = fila[9]
+        persona.entidaddescanso = fila[10]
         personas.append(persona)
-
-##        For each row fetched from the database, a new Persona object is created.
-##        The attributes of the Persona object (posx, posy, radio, direccion, color, entidad)
-##        are then populated with the values from the corresponding columns in the database row.
-##        The persona object is then added to a list named personas
+##
+####        For each row fetched from the database, a new Persona object is created.
+####        The attributes of the Persona object (posx, posy, radio, direccion, color, entidad)
+####        are then populated with the values from the corresponding columns in the database row.
+####        The persona object is then added to a list named personas
     
     conexion.close()
 except:
@@ -167,7 +175,7 @@ except:
 print(len(personas))   
 # En la colección introduzco instancias de personas en el caso de que no existan
 ##if len(personas) == 0:
-##    numeropersonas = 500
+##    numeropersonas = 38
 ##    for i in range(0,numeropersonas):
 ##        personas.append(Persona())
     
