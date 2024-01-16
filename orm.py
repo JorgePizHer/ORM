@@ -92,23 +92,39 @@ boton.pack()
 
 #Cargar personas desde SQL
 
-conexion = sqlite3.connect("jugadores.sqlite3")
-cursor = conexion.cursor()
+try:
+    conexion = sqlite3.connect("jugadores.sqlite3")
+    cursor = conexion.cursor()
 
-cursor.execute("SELECT * FROM jugadores")
-while True:
-    fila = cursor.fetchone()
-    if fila is None:
-        break
-    print (fila)
-conexion.commit()
-conexion.close()
+    cursor.execute("SELECT * FROM jugadores")
+    while True:
+        fila = cursor.fetchone()
+        if fila is None:
+            break
+        #print (fila)
+        persona = Persona()
+        persona.posx = fila[1]
+        persona.posy = fila[2]
+        persona.radio = fila[3]
+        persona.direccion = fila[4]
+        persona.color = fila[5]
+        persona.entidad = fila[6]
+        personas.append(persona)
 
+##        For each row fetched from the database, a new Persona object is created.
+##        The attributes of the Persona object (posx, posy, radio, direccion, color, entidad)
+##        are then populated with the values from the corresponding columns in the database row.
+##        The persona object is then added to a list named personas
+    
+    conexion.close()
+except:
+    print("Error al leer base de datos")
+    
 # En la colección introduzco instancias de personas en el caso de que no existan
-if len(personas) == 0:
-    numeropersonas = 500
-    for i in range(0,numeropersonas):
-        personas.append(Persona())
+##if len(personas) == 0:
+##    numeropersonas = 500
+##    for i in range(0,numeropersonas):
+##        personas.append(Persona())
     
 # Pinto cada una de las personas en la colección
 for persona in personas:
