@@ -48,6 +48,10 @@ def guardarPersona():
     #Guardo los personajes en SQL
     conexion = sqlite3.connect("jugadores.sqlite3")
     cursor = conexion.cursor()
+    cursor.execute('''
+            TRUNCATE jugadores
+            ''')
+    cursor.commit()
 
     for persona in personas:
         cursor.execute('''
@@ -96,7 +100,13 @@ try:
     conexion = sqlite3.connect("jugadores.sqlite3")
     cursor = conexion.cursor()
 
-    cursor.execute("SELECT * FROM jugadores")
+    cursor.execute('''
+            SELECT *
+            FROM jugadores
+            WHERE posx < 216
+            AND
+            posy < 216
+            ''')
     while True:
         fila = cursor.fetchone()
         if fila is None:
@@ -119,7 +129,9 @@ try:
     conexion.close()
 except:
     print("Error al leer base de datos")
-    
+
+
+print(len(personas))   
 # En la colección introduzco instancias de personas en el caso de que no existan
 ##if len(personas) == 0:
 ##    numeropersonas = 500
