@@ -20,6 +20,8 @@ class Persona:
         self.descanso = 100
         self.entidadenergia = ""
         self.entidaddescanso = ""
+        self.exito = False
+        self.entidadexito = None
 
     def dibuja(self):
         self.entidad = lienzo.create_oval(
@@ -28,18 +30,29 @@ class Persona:
                            self.posx+self.radio/2,
                            self.posy+self.radio/2,
                            fill=self.color)
+        
         self.entidadenergia = lienzo.create_rectangle(
                            self.posx-self.radio/2,
                            self.posy-self.radio/2-10,
                            self.posx+self.radio/2,
                            self.posy-self.radio/2-6,
                            fill="light green")
+            
         self.entidaddescanso = lienzo.create_rectangle(
                            self.posx-self.radio/2,
                            self.posy-self.radio/2-16,
                            self.posx+self.radio/2,
                            self.posy-self.radio/2-12,
                            fill="light blue")
+        
+        if random.randint(0,3)==0:
+                self.entidadexito = lienzo.create_polygon(
+                            self.posx - self.radio/2,self.posy + self.radio/2,
+                            self.posx + self.radio/2,self.posy + self.radio/2,
+                            self.posx, self.posy - self.radio/2,
+                            fill='gold',
+                            )
+                self.exito=True
             
     def mueve(self):
         if self.energia > 0:
@@ -63,6 +76,19 @@ class Persona:
                     self.posy-self.radio/2 -16,
                     self.posx-self.radio/2 + anchuradescanso,
                     self.posy-self.radio/2-12)
+
+        if self.exito and self.entidadexito:
+            lienzo.delete(self.entidadexito)
+            coords = [
+                self.posx - self.radio / 2 * 0.75, self.posy + self.radio / 2 - 50,
+                self.posx + self.radio / 2 * 0.75, self.posy + self.radio / 2 - 50,
+                self.posx, self.posy - self.radio / 2 * 0.75 - 50
+            ]
+
+            if len(coords) == 6:  # Ensure there are 6 coordinates before updating
+                self.entidadexito = lienzo.create_polygon(*coords, fill='gold')
+            
+                      
         
         
         self.posx += math.cos(self.direccion)
@@ -103,7 +129,9 @@ def guardarPersona():
                 '''+str(persona.energia)+''',
                 '''+str(persona.descanso)+''',
                 "'''+str(persona.entidadenergia)+'''",
-                "'''+str(persona.entidaddescanso)+'''"
+                "'''+str(persona.entidaddescanso)+'''",
+                "'''+str(persona.exito)+'''",
+                "'''+str(persona.entidadexito)+'''"
             )
             ''')
     conexion.commit()
@@ -119,20 +147,6 @@ lienzo.pack()
 #Botón de guardar
 boton = tk.Button(raiz,text="Guardar",command=guardarPersona)
 boton.pack()
-
-#Cargar personas desde el disco duro
-##try:
-##    carga = open("jugadores2.json",'r')
-##    cargado = carga.read()
-##    cargadolista = json.loads(cargado)
-##    for elemento in cargadolista:
-##        persona = Persona() #Creación de un nuevo objeto persona
-##        persona.__dict__.update(elemento) #Se vuelca la información del elemento en la persona creada
-##        personas.append(persona) #Se añade la persona al array de personas
-##except:
-##    print("Error")
-
-#Al ser un bucle, se repite esto para cada uno de los elementos en cargadolista
 
 #Cargar personas desde SQL
 
@@ -160,24 +174,27 @@ try:
         persona.descanso = fila[8]
         persona.entidadenergia = fila[9]
         persona.entidaddescanso = fila[10]
+        persona.exito = fila[11]
+        persona.entidadexito = fila[12]
         personas.append(persona)
-##
-####        For each row fetched from the database, a new Persona object is created.
-####        The attributes of the Persona object (posx, posy, radio, direccion, color, entidad)
-####        are then populated with the values from the corresponding columns in the database row.
-####        The persona object is then added to a list named personas
+
+##      For each row fetched from the database, a new Persona object is created.
+##      The attributes of the Persona object (posx, posy, radio, direccion, color, entidad)
+##      are then populated with the values from the corresponding columns in the database row.
+##      The persona object is then added to a list named personas
     
     conexion.close()
 except:
     print("Error al leer base de datos")
 
 
-print(len(personas))   
-# En la colección introduzco instancias de personas en el caso de que no existan
+##print(len(personas))   
+## #En la colección introduzco instancias de personas en el caso de que no existan
 ##if len(personas) == 0:
-##    numeropersonas = 38
+##    numeropersonas = 50
 ##    for i in range(0,numeropersonas):
 ##        personas.append(Persona())
+print(len(personas))
     
 # Pinto cada una de las personas en la colección
 for persona in personas:
@@ -188,7 +205,7 @@ def bucle():
     # Muevo cada una de las personas en la colección
     for persona in personas:
         persona.mueve()
-    raiz.after(15,bucle)
+    raiz.after(20,bucle)
 
 # Ejecuto el bucle
 bucle()
