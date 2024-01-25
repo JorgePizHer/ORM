@@ -8,12 +8,6 @@ import sqlite3
 personas = []
 numeropersonas = 789
 
-class Entidad:
-    def __init__(self):
-        self.posx = random.randint(0,840)
-        self.posy = random.randint(0,840)
-        self.color = "blue"
-
 class Recogible():
     def __init__(self):
         self.posx = random.randint(0,840)
@@ -129,6 +123,9 @@ def guardarPersona():
     cursor.execute('''
             DELETE from jugadores
             ''')
+    cursor.execute('''
+            DELETE from recogibles
+            ''')
     conexion.commit()
 
     for persona in personas:
@@ -151,7 +148,7 @@ def guardarPersona():
             )
             ''')
         for recogible in persona.inventario:
-            cursor.execute('''
+            peticion = '''
             INSERT INTO recogibles
             VALUES (
                 NULL,
@@ -160,7 +157,9 @@ def guardarPersona():
                 "'''+str(recogible.posy)+'''",
                 "'''+str(recogible.color)+'''"
             )
-            ''')
+            '''
+
+            cursor.execute(peticion)
     
     conexion.commit()
     conexion.close()
@@ -202,7 +201,25 @@ try:
         persona.descanso = fila[8]
         persona.entidadenergia = fila[9]
         persona.entidaddescanso = fila[10]
-      
+
+        cursor2 = conexion.cursor()
+        nuevapeticion = '''
+            SELECT *
+            FROM recogibles
+            WHERE persona = '''+persona.entidad+'''
+            '''
+        print(nuevapeticion)
+        cursor2.execute(nuevapeticion)
+        while True:
+            fila2 = cursor2.fetchone()
+            if fila2 is None:
+                break
+            nuevorecogible = Recogible()
+            nuevorecogible.posx = fila2[2]
+            nuevorecogible.posy = fila2[3]
+            nuevorecogible.color = fila2[4]
+            persona.inventario.append(nuevorecogible)
+
         personas.append(persona)
 
 ##      For each row fetched from the database, a new Persona object is created.
