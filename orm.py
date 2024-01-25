@@ -20,8 +20,7 @@ class Persona:
         self.descanso = 100
         self.entidadenergia = ""
         self.entidaddescanso = ""
-        self.exito = False
-        self.entidadexito = None
+        self.inventario = [1,2,3,4]
 
     def dibuja(self):
         
@@ -46,14 +45,6 @@ class Persona:
                            self.posy-self.radio/2-12,
                            fill="light blue")
         
-        
-                                
-        if self.exito:
-            self.entidadexito = lienzo.create_polygon(
-                self.posx - self.radio/2, self.posy + self.radio/2,
-                self.posx + self.radio/2, self.posy + self.radio/2,
-                self.posx, self.posy - self.radio/2,
-                fill='gold')
             
     def mueve(self):
         if self.energia > 0:
@@ -78,16 +69,6 @@ class Persona:
                     self.posx-self.radio/2 + anchuradescanso,
                     self.posy-self.radio/2-12)
 
-        if self.exito and self.entidadexito:
-            coords = [
-                self.posx - self.radio / 2 * 0.75, self.posy + self.radio / 2 - 50,
-                self.posx + self.radio / 2 * 0.75, self.posy + self.radio / 2 - 50,
-                self.posx, self.posy - self.radio / 2 * 0.75 - 50
-            ]
-
-            if len(coords) == 6:  # Ensure there are 6 coordinates before updating
-                lienzo.coords(self.entidadexito,*coords)
-        
         self.posx += math.cos(self.direccion)
         self.posy += math.sin(self.direccion)
         
@@ -190,7 +171,7 @@ boton.pack()
 ##print(len(personas))   
  #En la colección introduzco instancias de personas en el caso de que no existan
 if len(personas) == 0:
-    numeropersonas = 15
+    numeropersonas = 33
     for i in range(0,numeropersonas):
         personas.append(Persona())
 print(len(personas))

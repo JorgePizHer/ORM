@@ -113,7 +113,7 @@ try:
         fila = cursor.fetchone()
         if fila is None:
             break
-        #print (fila)
+        print (fila)
         persona = Persona()
         persona.posx = fila[1]
         persona.posy = fila[2]

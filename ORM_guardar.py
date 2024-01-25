@@ -141,7 +141,7 @@ boton.pack()
    
 #En la colección introduzco instancias de personas en el caso de que no existan
 if len(personas) == 0:
-    numeropersonas = 20
+    numeropersonas = 10
     for i in range(0,numeropersonas):
         personas.append(Persona())
 print(len(personas))
