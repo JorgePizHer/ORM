@@ -8,19 +8,40 @@ import sqlite3
 personas = []
 numeropersonas = 789
 
-class Persona:
+class Entidad:
     def __init__(self):
         self.posx = random.randint(0,840)
         self.posy = random.randint(0,840)
+        self.color = "blue"
+
+class Recogible():
+    def __init__(self):
+        self.posx = random.randint(0,840)
+        self.posy = random.randint(0,840)
+        self.color = "blue"
+        
+    def serializar(self):
+        recogible_serializado = {
+            "posx":self.posx,
+            "posy":self.posy,
+            "color":self.color
+            }
+        return recogible_serializado
+    
+class Persona():
+    def __init__(self):
+        self.posx = random.randint(0,840)
+        self.posy = random.randint(0,840)
+        self.color = "blue"
         self.radio = 30
         self.direccion = random.randint(0,360)
-        self.color = "blue"
         self.entidad = "" #identificador
         self.energia = 100
         self.descanso = 100
         self.entidadenergia = ""
         self.entidaddescanso = ""
-        self.inventario = [1,2,3,4]
+        self.inventario = []
+        self.inventario.append(Recogible())
 
     def dibuja(self):
         
@@ -75,15 +96,29 @@ class Persona:
     def colisiona(self):
         if self.posx < 0 or self.posx > 840 or self.posy < 0 or self.posy > 840:
             self.direccion += 180
+
+    def serializar(self):
+        persona_serializada = {
+            "posx":self.posx,
+            "posy":self.posy,
+            "radio":self.radio,
+            "direccion":self.direccion,
+            "color":self.color,
+            "energia":self.energia,
+            "descanso":self.descanso,
+            "inventario":[item.serializar() for item in self.inventario]
+            }
+        return persona_serializada
             
 def guardarPersona():
     print("Guardo a los jugadores")
     
-##    #Guardo archivo json
-##    cadena = json.dumps([vars(persona) for persona in personas])
-##    print(cadena)
-##    archivo = open("jugadores2.json",'w')
-##    archivo.write(cadena)
+    #Guardo archivo json con fines demostrativos
+    personas_serializadas = [persona.serializar() for persona in personas] 
+    cadena = json.dumps(personas_serializadas)
+    #print(cadena)
+    archivo = open("jugadores2.json",'w')
+    archivo.write(cadena)
     
     #Guardo los personajes en SQL
     conexion = sqlite3.connect("jugadores.sqlite3")
@@ -109,8 +144,7 @@ def guardarPersona():
                 '''+str(persona.descanso)+''',
                 "'''+str(persona.entidadenergia)+'''",
                 "'''+str(persona.entidaddescanso)+'''",
-                "'''+str(persona.exito)+'''",
-                "'''+str(persona.entidadexito)+'''"
+                "'''+str(persona.inventario)+'''"
             )
             ''')
     
@@ -130,42 +164,41 @@ boton.pack()
 
 #Cargar personas desde SQL
 
-##try:
-##    conexion = sqlite3.connect("jugadores.sqlite3")
-##    cursor = conexion.cursor()
-##
-##    cursor.execute('''
-##            SELECT *
-##            FROM jugadores
-##            ''')
-##    while True:
-##        fila = cursor.fetchone()
-##        if fila is None:
-##            break
-##        print (fila)
-##        persona = Persona()
-##        persona.posx = fila[1]
-##        persona.posy = fila[2]
-##        persona.radio = fila[3]
-##        persona.direccion = fila[4]
-##        persona.color = fila[5]
-##        persona.entidad = fila[6]
-##        persona.energia = fila[7]
-##        persona.descanso = fila[8]
-##        persona.entidadenergia = fila[9]
-##        persona.entidaddescanso = fila[10]
-##        persona.exito = fila[11] == "True"
-##        persona.entidadexito = fila[12]
-##        personas.append(persona)
-##
-####      For each row fetched from the database, a new Persona object is created.
-####      The attributes of the Persona object (posx, posy, radio, direccion, color, entidad)
-####      are then populated with the values from the corresponding columns in the database row.
-####      The persona object is then added to a list named personas
-##    
-##    conexion.close()
-##except:
-##    print("Error al leer base de datos")
+try:
+    conexion = sqlite3.connect("jugadores.sqlite3")
+    cursor = conexion.cursor()
+
+    cursor.execute('''
+            SELECT *
+            FROM jugadores
+            ''')
+    while True:
+        fila = cursor.fetchone()
+        if fila is None:
+            break
+        print (fila)
+        persona = Persona()
+        persona.posx = fila[1]
+        persona.posy = fila[2]
+        persona.radio = fila[3]
+        persona.direccion = fila[4]
+        persona.color = fila[5]
+        persona.entidad = fila[6]
+        persona.energia = fila[7]
+        persona.descanso = fila[8]
+        persona.entidadenergia = fila[9]
+        persona.entidaddescanso = fila[10]
+      
+        personas.append(persona)
+
+##      For each row fetched from the database, a new Persona object is created.
+##      The attributes of the Persona object (posx, posy, radio, direccion, color, entidad)
+##      are then populated with the values from the corresponding columns in the database row.
+##      The persona object is then added to a list named personas
+    
+    conexion.close()
+except:
+    print("Error al leer base de datos")
 
 
 ##print(len(personas))   
