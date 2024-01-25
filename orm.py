@@ -150,6 +150,17 @@ def guardarPersona():
                 "'''+str(persona.inventario)+'''"
             )
             ''')
+        for recogible in persona.inventario:
+            cursor.execute('''
+            INSERT INTO recogibles
+            VALUES (
+                NULL,
+                '''+str(persona.entidad)+''',
+                "'''+str(recogible.posx)+'''",
+                "'''+str(recogible.posy)+'''",
+                "'''+str(recogible.color)+'''"
+            )
+            ''')
     
     conexion.commit()
     conexion.close()

@@ -1,7 +1,7 @@
 [
     {
-        "posx": 513.9122636714584,
-        "posy": 332.96085588825565,
+        "posx": 657.6356724770432,
+        "posy": 341.8817169064024,
         "radio": 30,
         "direccion": 509,
         "color": "blue",
@@ -9,60 +9,60 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 508,
-                "posy": 112,
+                "posx": 470,
+                "posy": 756,
                 "color": "blue"
             },
             {
-                "posx": 653,
-                "posy": 88,
-                "color": "blue"
-            },
-            {
-                "posx": 246,
-                "posy": 386,
-                "color": "blue"
-            },
-            {
-                "posx": 150,
-                "posy": 187,
+                "posx": 87,
+                "posy": 541,
                 "color": "blue"
             },
             {
                 "posx": 597,
-                "posy": 352,
+                "posy": 775,
                 "color": "blue"
             },
             {
-                "posx": 510,
-                "posy": 176,
+                "posx": 793,
+                "posy": 504,
                 "color": "blue"
             },
             {
-                "posx": 659,
-                "posy": 417,
+                "posx": 307,
+                "posy": 358,
                 "color": "blue"
             },
             {
-                "posx": 812,
-                "posy": 243,
+                "posx": 694,
+                "posy": 132,
                 "color": "blue"
             },
             {
-                "posx": 320,
-                "posy": 816,
+                "posx": 348,
+                "posy": 118,
                 "color": "blue"
             },
             {
-                "posx": 121,
-                "posy": 733,
+                "posx": 344,
+                "posy": 87,
+                "color": "blue"
+            },
+            {
+                "posx": 558,
+                "posy": 84,
+                "color": "blue"
+            },
+            {
+                "posx": 638,
+                "posy": 323,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 640.7021971902676,
-        "posy": 778.4323920279071,
+        "posx": 783.0730588340674,
+        "posy": 800.0318770865993,
         "radio": 30,
         "direccion": 1439,
         "color": "blue",
@@ -70,60 +70,60 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 602,
-                "posy": 663,
+                "posx": 805,
+                "posy": 614,
                 "color": "blue"
             },
             {
-                "posx": 674,
-                "posy": 692,
+                "posx": 582,
+                "posy": 219,
                 "color": "blue"
             },
             {
-                "posx": 86,
-                "posy": 61,
+                "posx": 574,
+                "posy": 50,
                 "color": "blue"
             },
             {
-                "posx": 169,
-                "posy": 21,
+                "posx": 164,
+                "posy": 709,
                 "color": "blue"
             },
             {
-                "posx": 17,
-                "posy": 45,
+                "posx": 121,
+                "posy": 272,
                 "color": "blue"
             },
             {
-                "posx": 362,
+                "posx": 506,
+                "posy": 340,
+                "color": "blue"
+            },
+            {
+                "posx": 560,
+                "posy": 136,
+                "color": "blue"
+            },
+            {
+                "posx": 826,
                 "posy": 717,
                 "color": "blue"
             },
             {
-                "posx": 612,
-                "posy": 140,
+                "posx": 208,
+                "posy": 499,
                 "color": "blue"
             },
             {
-                "posx": 73,
-                "posy": 456,
-                "color": "blue"
-            },
-            {
-                "posx": 178,
-                "posy": 270,
-                "color": "blue"
-            },
-            {
-                "posx": 258,
-                "posy": 497,
+                "posx": 529,
+                "posy": 163,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 400.68323732110474,
-        "posy": 228.6704872767442,
+        "posx": 491.8879209888293,
+        "posy": 117.23572754231247,
         "radio": 30,
         "direccion": 640,
         "color": "blue",
@@ -131,60 +131,60 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 317,
-                "posy": 713,
+                "posx": 228,
+                "posy": 329,
                 "color": "blue"
             },
             {
-                "posx": 249,
-                "posy": 774,
+                "posx": 215,
+                "posy": 220,
                 "color": "blue"
             },
             {
-                "posx": 533,
-                "posy": 837,
+                "posx": 559,
+                "posy": 130,
                 "color": "blue"
             },
             {
-                "posx": 346,
-                "posy": 261,
+                "posx": 466,
+                "posy": 335,
                 "color": "blue"
             },
             {
-                "posx": 226,
-                "posy": 337,
+                "posx": 785,
+                "posy": 568,
                 "color": "blue"
             },
             {
-                "posx": 636,
-                "posy": 287,
+                "posx": 593,
+                "posy": 293,
                 "color": "blue"
             },
             {
-                "posx": 415,
-                "posy": 74,
+                "posx": 267,
+                "posy": 833,
                 "color": "blue"
             },
             {
-                "posx": 561,
-                "posy": 519,
+                "posx": 402,
+                "posy": 381,
                 "color": "blue"
             },
             {
-                "posx": 490,
-                "posy": 161,
+                "posx": 696,
+                "posy": 178,
                 "color": "blue"
             },
             {
-                "posx": 178,
-                "posy": 486,
+                "posx": 645,
+                "posy": 610,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 545.2634112869969,
-        "posy": 360.1902681707177,
+        "posx": 663.9720374559588,
+        "posy": 278.6779250987872,
         "radio": 30,
         "direccion": 634,
         "color": "blue",
@@ -192,679 +192,8 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 409,
-                "posy": 450,
-                "color": "blue"
-            },
-            {
-                "posx": 776,
-                "posy": 184,
-                "color": "blue"
-            },
-            {
-                "posx": 259,
-                "posy": 593,
-                "color": "blue"
-            },
-            {
-                "posx": 765,
-                "posy": 313,
-                "color": "blue"
-            },
-            {
-                "posx": 64,
-                "posy": 35,
-                "color": "blue"
-            },
-            {
-                "posx": 718,
-                "posy": 836,
-                "color": "blue"
-            },
-            {
-                "posx": 85,
-                "posy": 539,
-                "color": "blue"
-            },
-            {
-                "posx": 17,
-                "posy": 511,
-                "color": "blue"
-            },
-            {
-                "posx": 241,
-                "posy": 650,
-                "color": "blue"
-            },
-            {
-                "posx": 649,
-                "posy": 749,
-                "color": "blue"
-            }
-        ]
-    },
-    {
-        "posx": 106.1121543414338,
-        "posy": 569.4153331527364,
-        "radio": 30,
-        "direccion": 664,
-        "color": "blue",
-        "energia": 0,
-        "descanso": 0,
-        "inventario": [
-            {
-                "posx": 101,
-                "posy": 514,
-                "color": "blue"
-            },
-            {
-                "posx": 370,
-                "posy": 579,
-                "color": "blue"
-            },
-            {
-                "posx": 698,
-                "posy": 372,
-                "color": "blue"
-            },
-            {
-                "posx": 638,
-                "posy": 49,
-                "color": "blue"
-            },
-            {
-                "posx": 24,
-                "posy": 646,
-                "color": "blue"
-            },
-            {
-                "posx": 202,
-                "posy": 757,
-                "color": "blue"
-            },
-            {
-                "posx": 62,
-                "posy": 433,
-                "color": "blue"
-            },
-            {
-                "posx": 536,
-                "posy": 263,
-                "color": "blue"
-            },
-            {
-                "posx": 162,
-                "posy": 483,
-                "color": "blue"
-            },
-            {
-                "posx": 558,
-                "posy": 122,
-                "color": "blue"
-            }
-        ]
-    },
-    {
-        "posx": 94.04184043222924,
-        "posy": 217.38287780200548,
-        "radio": 30,
-        "direccion": 553,
-        "color": "blue",
-        "energia": 0,
-        "descanso": 0,
-        "inventario": [
-            {
-                "posx": 448,
-                "posy": 813,
-                "color": "blue"
-            },
-            {
-                "posx": 696,
-                "posy": 66,
-                "color": "blue"
-            },
-            {
-                "posx": 296,
-                "posy": 702,
-                "color": "blue"
-            },
-            {
-                "posx": 821,
-                "posy": 7,
-                "color": "blue"
-            },
-            {
-                "posx": 559,
-                "posy": 153,
-                "color": "blue"
-            },
-            {
-                "posx": 797,
-                "posy": 443,
-                "color": "blue"
-            },
-            {
-                "posx": 91,
-                "posy": 105,
-                "color": "blue"
-            },
-            {
-                "posx": 37,
-                "posy": 687,
-                "color": "blue"
-            },
-            {
-                "posx": 142,
-                "posy": 836,
-                "color": "blue"
-            },
-            {
-                "posx": 438,
-                "posy": 135,
-                "color": "blue"
-            }
-        ]
-    },
-    {
-        "posx": 528.8578928025211,
-        "posy": 464.04132707536814,
-        "radio": 30,
-        "direccion": 249,
-        "color": "blue",
-        "energia": 0,
-        "descanso": 0,
-        "inventario": [
-            {
-                "posx": 176,
-                "posy": 225,
-                "color": "blue"
-            },
-            {
-                "posx": 217,
-                "posy": 461,
-                "color": "blue"
-            },
-            {
-                "posx": 641,
-                "posy": 608,
-                "color": "blue"
-            },
-            {
-                "posx": 127,
-                "posy": 457,
-                "color": "blue"
-            },
-            {
-                "posx": 700,
-                "posy": 743,
-                "color": "blue"
-            },
-            {
-                "posx": 621,
-                "posy": 668,
-                "color": "blue"
-            },
-            {
-                "posx": 688,
-                "posy": 117,
-                "color": "blue"
-            },
-            {
-                "posx": 130,
-                "posy": 290,
-                "color": "blue"
-            },
-            {
-                "posx": 339,
-                "posy": 355,
-                "color": "blue"
-            },
-            {
-                "posx": 735,
-                "posy": 277,
-                "color": "blue"
-            }
-        ]
-    },
-    {
-        "posx": 18.23495917012042,
-        "posy": 396.86910374912236,
-        "radio": 30,
-        "direccion": 530,
-        "color": "blue",
-        "energia": 0,
-        "descanso": 0,
-        "inventario": [
-            {
-                "posx": 169,
-                "posy": 235,
-                "color": "blue"
-            },
-            {
-                "posx": 331,
-                "posy": 237,
-                "color": "blue"
-            },
-            {
-                "posx": 195,
-                "posy": 535,
-                "color": "blue"
-            },
-            {
-                "posx": 347,
-                "posy": 157,
-                "color": "blue"
-            },
-            {
-                "posx": 345,
-                "posy": 196,
-                "color": "blue"
-            },
-            {
-                "posx": 133,
-                "posy": 283,
-                "color": "blue"
-            },
-            {
-                "posx": 585,
-                "posy": 759,
-                "color": "blue"
-            },
-            {
-                "posx": 209,
-                "posy": 258,
-                "color": "blue"
-            },
-            {
-                "posx": 827,
-                "posy": 557,
-                "color": "blue"
-            },
-            {
-                "posx": 572,
-                "posy": 591,
-                "color": "blue"
-            }
-        ]
-    },
-    {
-        "posx": 815.4320267818168,
-        "posy": 483.8166151235381,
-        "radio": 30,
-        "direccion": 119,
-        "color": "blue",
-        "energia": 0,
-        "descanso": 0,
-        "inventario": [
-            {
-                "posx": 316,
-                "posy": 581,
-                "color": "blue"
-            },
-            {
-                "posx": 712,
-                "posy": 412,
-                "color": "blue"
-            },
-            {
-                "posx": 144,
-                "posy": 800,
-                "color": "blue"
-            },
-            {
-                "posx": 104,
-                "posy": 756,
-                "color": "blue"
-            },
-            {
-                "posx": 196,
-                "posy": 829,
-                "color": "blue"
-            },
-            {
-                "posx": 623,
-                "posy": 690,
-                "color": "blue"
-            },
-            {
-                "posx": 63,
-                "posy": 610,
-                "color": "blue"
-            },
-            {
-                "posx": 575,
-                "posy": 248,
-                "color": "blue"
-            },
-            {
-                "posx": 447,
-                "posy": 238,
-                "color": "blue"
-            },
-            {
-                "posx": 110,
-                "posy": 728,
-                "color": "blue"
-            }
-        ]
-    },
-    {
-        "posx": 803.661280426939,
-        "posy": 222.3833665153017,
-        "radio": 30,
-        "direccion": 520,
-        "color": "blue",
-        "energia": 0,
-        "descanso": 0,
-        "inventario": [
-            {
-                "posx": 354,
-                "posy": 704,
-                "color": "blue"
-            },
-            {
-                "posx": 750,
-                "posy": 410,
-                "color": "blue"
-            },
-            {
-                "posx": 647,
-                "posy": 174,
-                "color": "blue"
-            },
-            {
-                "posx": 768,
-                "posy": 611,
-                "color": "blue"
-            },
-            {
-                "posx": 104,
-                "posy": 261,
-                "color": "blue"
-            },
-            {
-                "posx": 509,
-                "posy": 675,
-                "color": "blue"
-            },
-            {
-                "posx": 343,
-                "posy": 307,
-                "color": "blue"
-            },
-            {
-                "posx": 659,
-                "posy": 817,
-                "color": "blue"
-            },
-            {
-                "posx": 497,
-                "posy": 685,
-                "color": "blue"
-            },
-            {
-                "posx": 197,
-                "posy": 646,
-                "color": "blue"
-            }
-        ]
-    },
-    {
-        "posx": 485.93043676494983,
-        "posy": 417.77187358079726,
-        "radio": 30,
-        "direccion": 318,
-        "color": "blue",
-        "energia": 0,
-        "descanso": 0,
-        "inventario": [
-            {
-                "posx": 497,
-                "posy": 509,
-                "color": "blue"
-            },
-            {
-                "posx": 650,
-                "posy": 682,
-                "color": "blue"
-            },
-            {
-                "posx": 682,
-                "posy": 528,
-                "color": "blue"
-            },
-            {
-                "posx": 6,
-                "posy": 650,
-                "color": "blue"
-            },
-            {
-                "posx": 61,
-                "posy": 574,
-                "color": "blue"
-            },
-            {
-                "posx": 288,
-                "posy": 423,
-                "color": "blue"
-            },
-            {
-                "posx": 582,
-                "posy": 445,
-                "color": "blue"
-            },
-            {
-                "posx": 28,
-                "posy": 173,
-                "color": "blue"
-            },
-            {
-                "posx": 328,
-                "posy": 593,
-                "color": "blue"
-            },
-            {
-                "posx": 823,
-                "posy": 556,
-                "color": "blue"
-            }
-        ]
-    },
-    {
-        "posx": 211.34649461396148,
-        "posy": 450.832077550217,
-        "radio": 30,
-        "direccion": 913,
-        "color": "blue",
-        "energia": 0,
-        "descanso": 0,
-        "inventario": [
-            {
-                "posx": 630,
-                "posy": 325,
-                "color": "blue"
-            },
-            {
-                "posx": 363,
-                "posy": 688,
-                "color": "blue"
-            },
-            {
-                "posx": 237,
-                "posy": 295,
-                "color": "blue"
-            },
-            {
-                "posx": 516,
-                "posy": 465,
-                "color": "blue"
-            },
-            {
-                "posx": 174,
-                "posy": 310,
-                "color": "blue"
-            },
-            {
-                "posx": 195,
-                "posy": 705,
-                "color": "blue"
-            },
-            {
-                "posx": 586,
-                "posy": 37,
-                "color": "blue"
-            },
-            {
-                "posx": 800,
-                "posy": 92,
-                "color": "blue"
-            },
-            {
-                "posx": 74,
-                "posy": 89,
-                "color": "blue"
-            },
-            {
-                "posx": 535,
-                "posy": 87,
-                "color": "blue"
-            }
-        ]
-    },
-    {
-        "posx": 835.9403006817948,
-        "posy": 283.74370492538515,
-        "radio": 30,
-        "direccion": 232,
-        "color": "blue",
-        "energia": 0,
-        "descanso": 0,
-        "inventario": [
-            {
-                "posx": 410,
-                "posy": 390,
-                "color": "blue"
-            },
-            {
-                "posx": 569,
-                "posy": 60,
-                "color": "blue"
-            },
-            {
-                "posx": 484,
-                "posy": 568,
-                "color": "blue"
-            },
-            {
-                "posx": 239,
-                "posy": 239,
-                "color": "blue"
-            },
-            {
-                "posx": 156,
-                "posy": 434,
-                "color": "blue"
-            },
-            {
-                "posx": 133,
-                "posy": 710,
-                "color": "blue"
-            },
-            {
-                "posx": 724,
-                "posy": 100,
-                "color": "blue"
-            },
-            {
-                "posx": 395,
-                "posy": 216,
-                "color": "blue"
-            },
-            {
-                "posx": 696,
-                "posy": 89,
-                "color": "blue"
-            },
-            {
-                "posx": 572,
-                "posy": 310,
-                "color": "blue"
-            }
-        ]
-    },
-    {
-        "posx": 571.6571156263078,
-        "posy": 644.260362768793,
-        "radio": 30,
-        "direccion": 2133,
-        "color": "blue",
-        "energia": 0,
-        "descanso": 0,
-        "inventario": [
-            {
-                "posx": 101,
-                "posy": 652,
-                "color": "blue"
-            },
-            {
-                "posx": 629,
-                "posy": 44,
-                "color": "blue"
-            },
-            {
-                "posx": 823,
-                "posy": 593,
-                "color": "blue"
-            },
-            {
-                "posx": 266,
-                "posy": 254,
-                "color": "blue"
-            },
-            {
-                "posx": 301,
-                "posy": 259,
-                "color": "blue"
-            },
-            {
-                "posx": 608,
-                "posy": 491,
-                "color": "blue"
-            },
-            {
-                "posx": 103,
-                "posy": 6,
-                "color": "blue"
-            },
-            {
-                "posx": 91,
-                "posy": 383,
-                "color": "blue"
-            },
-            {
-                "posx": 236,
-                "posy": 458,
-                "color": "blue"
-            },
-            {
-                "posx": 379,
-                "posy": 700,
-                "color": "blue"
-            }
-        ]
-    },
-    {
-        "posx": 563.9101095515792,
-        "posy": 684.6896591117533,
-        "radio": 30,
-        "direccion": 291,
-        "color": "blue",
-        "energia": 0,
-        "descanso": 0,
-        "inventario": [
-            {
-                "posx": 397,
-                "posy": 801,
+                "posx": 715,
+                "posy": 644,
                 "color": "blue"
             },
             {
@@ -873,50 +202,721 @@
                 "color": "blue"
             },
             {
-                "posx": 108,
-                "posy": 701,
+                "posx": 579,
+                "posy": 273,
                 "color": "blue"
             },
             {
-                "posx": 531,
-                "posy": 831,
+                "posx": 277,
+                "posy": 519,
                 "color": "blue"
             },
             {
-                "posx": 12,
-                "posy": 248,
+                "posx": 747,
+                "posy": 601,
                 "color": "blue"
             },
             {
-                "posx": 334,
-                "posy": 137,
+                "posx": 55,
+                "posy": 740,
                 "color": "blue"
             },
             {
-                "posx": 248,
-                "posy": 710,
+                "posx": 270,
+                "posy": 817,
                 "color": "blue"
             },
             {
-                "posx": 171,
-                "posy": 835,
+                "posx": 653,
+                "posy": 402,
                 "color": "blue"
             },
             {
-                "posx": 568,
-                "posy": 105,
+                "posx": 69,
+                "posy": 596,
                 "color": "blue"
             },
             {
-                "posx": 702,
-                "posy": 545,
+                "posx": 635,
+                "posy": 190,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 346.5041136783825,
-        "posy": 777.6409220322715,
+        "posx": 43.886359333186554,
+        "posy": 439.55405934259903,
+        "radio": 30,
+        "direccion": 664,
+        "color": "blue",
+        "energia": 0,
+        "descanso": 0,
+        "inventario": [
+            {
+                "posx": 498,
+                "posy": 342,
+                "color": "blue"
+            },
+            {
+                "posx": 228,
+                "posy": 148,
+                "color": "blue"
+            },
+            {
+                "posx": 13,
+                "posy": 769,
+                "color": "blue"
+            },
+            {
+                "posx": 383,
+                "posy": 486,
+                "color": "blue"
+            },
+            {
+                "posx": 20,
+                "posy": 301,
+                "color": "blue"
+            },
+            {
+                "posx": 251,
+                "posy": 377,
+                "color": "blue"
+            },
+            {
+                "posx": 744,
+                "posy": 750,
+                "color": "blue"
+            },
+            {
+                "posx": 610,
+                "posy": 695,
+                "color": "blue"
+            },
+            {
+                "posx": 299,
+                "posy": 199,
+                "color": "blue"
+            },
+            {
+                "posx": 545,
+                "posy": 565,
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "posx": 237.58481260890153,
+        "posy": 228.84652201694675,
+        "radio": 30,
+        "direccion": 553,
+        "color": "blue",
+        "energia": 0,
+        "descanso": 0,
+        "inventario": [
+            {
+                "posx": 92,
+                "posy": 798,
+                "color": "blue"
+            },
+            {
+                "posx": 103,
+                "posy": 1,
+                "color": "blue"
+            },
+            {
+                "posx": 558,
+                "posy": 296,
+                "color": "blue"
+            },
+            {
+                "posx": 717,
+                "posy": 485,
+                "color": "blue"
+            },
+            {
+                "posx": 176,
+                "posy": 251,
+                "color": "blue"
+            },
+            {
+                "posx": 779,
+                "posy": 192,
+                "color": "blue"
+            },
+            {
+                "posx": 176,
+                "posy": 193,
+                "color": "blue"
+            },
+            {
+                "posx": 618,
+                "posy": 356,
+                "color": "blue"
+            },
+            {
+                "posx": 531,
+                "posy": 107,
+                "color": "blue"
+            },
+            {
+                "posx": 175,
+                "posy": 666,
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "posx": 430.00698588745513,
+        "posy": 359.3298272194854,
+        "radio": 30,
+        "direccion": 249,
+        "color": "blue",
+        "energia": 0,
+        "descanso": 0,
+        "inventario": [
+            {
+                "posx": 508,
+                "posy": 543,
+                "color": "blue"
+            },
+            {
+                "posx": 819,
+                "posy": 600,
+                "color": "blue"
+            },
+            {
+                "posx": 681,
+                "posy": 193,
+                "color": "blue"
+            },
+            {
+                "posx": 569,
+                "posy": 369,
+                "color": "blue"
+            },
+            {
+                "posx": 801,
+                "posy": 773,
+                "color": "blue"
+            },
+            {
+                "posx": 287,
+                "posy": 107,
+                "color": "blue"
+            },
+            {
+                "posx": 425,
+                "posy": 837,
+                "color": "blue"
+            },
+            {
+                "posx": 200,
+                "posy": 611,
+                "color": "blue"
+            },
+            {
+                "posx": 294,
+                "posy": 435,
+                "color": "blue"
+            },
+            {
+                "posx": 61,
+                "posy": 311,
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "posx": 112.68119954353632,
+        "posy": 421.710529543697,
+        "radio": 30,
+        "direccion": 710,
+        "color": "blue",
+        "energia": 0,
+        "descanso": 0,
+        "inventario": [
+            {
+                "posx": 1,
+                "posy": 720,
+                "color": "blue"
+            },
+            {
+                "posx": 333,
+                "posy": 678,
+                "color": "blue"
+            },
+            {
+                "posx": 462,
+                "posy": 97,
+                "color": "blue"
+            },
+            {
+                "posx": 248,
+                "posy": 330,
+                "color": "blue"
+            },
+            {
+                "posx": 92,
+                "posy": 727,
+                "color": "blue"
+            },
+            {
+                "posx": 74,
+                "posy": 155,
+                "color": "blue"
+            },
+            {
+                "posx": 385,
+                "posy": 317,
+                "color": "blue"
+            },
+            {
+                "posx": 724,
+                "posy": 595,
+                "color": "blue"
+            },
+            {
+                "posx": 682,
+                "posy": 814,
+                "color": "blue"
+            },
+            {
+                "posx": 702,
+                "posy": 503,
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "posx": 740.6758393362602,
+        "posy": 412.76422795536,
+        "radio": 30,
+        "direccion": 299,
+        "color": "blue",
+        "energia": 0,
+        "descanso": 0,
+        "inventario": [
+            {
+                "posx": 754,
+                "posy": 89,
+                "color": "blue"
+            },
+            {
+                "posx": 307,
+                "posy": 303,
+                "color": "blue"
+            },
+            {
+                "posx": 406,
+                "posy": 395,
+                "color": "blue"
+            },
+            {
+                "posx": 665,
+                "posy": 437,
+                "color": "blue"
+            },
+            {
+                "posx": 283,
+                "posy": 570,
+                "color": "blue"
+            },
+            {
+                "posx": 639,
+                "posy": 831,
+                "color": "blue"
+            },
+            {
+                "posx": 176,
+                "posy": 134,
+                "color": "blue"
+            },
+            {
+                "posx": 166,
+                "posy": 697,
+                "color": "blue"
+            },
+            {
+                "posx": 164,
+                "posy": 412,
+                "color": "blue"
+            },
+            {
+                "posx": 322,
+                "posy": 396,
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "posx": 813.2181304802781,
+        "posy": 78.70084629430193,
+        "radio": 30,
+        "direccion": 520,
+        "color": "blue",
+        "energia": 0,
+        "descanso": 0,
+        "inventario": [
+            {
+                "posx": 708,
+                "posy": 828,
+                "color": "blue"
+            },
+            {
+                "posx": 564,
+                "posy": 663,
+                "color": "blue"
+            },
+            {
+                "posx": 277,
+                "posy": 563,
+                "color": "blue"
+            },
+            {
+                "posx": 199,
+                "posy": 653,
+                "color": "blue"
+            },
+            {
+                "posx": 803,
+                "posy": 426,
+                "color": "blue"
+            },
+            {
+                "posx": 446,
+                "posy": 442,
+                "color": "blue"
+            },
+            {
+                "posx": 439,
+                "posy": 146,
+                "color": "blue"
+            },
+            {
+                "posx": 98,
+                "posy": 697,
+                "color": "blue"
+            },
+            {
+                "posx": 840,
+                "posy": 710,
+                "color": "blue"
+            },
+            {
+                "posx": 46,
+                "posy": 607,
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "posx": 375.71360679679003,
+        "posy": 325.0990599202166,
+        "radio": 30,
+        "direccion": 318,
+        "color": "blue",
+        "energia": 0,
+        "descanso": 0,
+        "inventario": [
+            {
+                "posx": 694,
+                "posy": 757,
+                "color": "blue"
+            },
+            {
+                "posx": 641,
+                "posy": 765,
+                "color": "blue"
+            },
+            {
+                "posx": 380,
+                "posy": 420,
+                "color": "blue"
+            },
+            {
+                "posx": 282,
+                "posy": 832,
+                "color": "blue"
+            },
+            {
+                "posx": 286,
+                "posy": 550,
+                "color": "blue"
+            },
+            {
+                "posx": 18,
+                "posy": 65,
+                "color": "blue"
+            },
+            {
+                "posx": 825,
+                "posy": 557,
+                "color": "blue"
+            },
+            {
+                "posx": 11,
+                "posy": 677,
+                "color": "blue"
+            },
+            {
+                "posx": 353,
+                "posy": 662,
+                "color": "blue"
+            },
+            {
+                "posx": 262,
+                "posy": 155,
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "posx": 159.63196347660497,
+        "posy": 585.2255568163044,
+        "radio": 30,
+        "direccion": 913,
+        "color": "blue",
+        "energia": 0,
+        "descanso": 0,
+        "inventario": [
+            {
+                "posx": 314,
+                "posy": 804,
+                "color": "blue"
+            },
+            {
+                "posx": 150,
+                "posy": 434,
+                "color": "blue"
+            },
+            {
+                "posx": 365,
+                "posy": 580,
+                "color": "blue"
+            },
+            {
+                "posx": 216,
+                "posy": 208,
+                "color": "blue"
+            },
+            {
+                "posx": 824,
+                "posy": 359,
+                "color": "blue"
+            },
+            {
+                "posx": 68,
+                "posy": 101,
+                "color": "blue"
+            },
+            {
+                "posx": 613,
+                "posy": 148,
+                "color": "blue"
+            },
+            {
+                "posx": 618,
+                "posy": 7,
+                "color": "blue"
+            },
+            {
+                "posx": 591,
+                "posy": 795,
+                "color": "blue"
+            },
+            {
+                "posx": 389,
+                "posy": 651,
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "posx": 715.3005531975391,
+        "posy": 220.81364985671976,
+        "radio": 30,
+        "direccion": 412,
+        "color": "blue",
+        "energia": 0,
+        "descanso": 0,
+        "inventario": [
+            {
+                "posx": 833,
+                "posy": 466,
+                "color": "blue"
+            },
+            {
+                "posx": 679,
+                "posy": 492,
+                "color": "blue"
+            },
+            {
+                "posx": 837,
+                "posy": 298,
+                "color": "blue"
+            },
+            {
+                "posx": 777,
+                "posy": 792,
+                "color": "blue"
+            },
+            {
+                "posx": 132,
+                "posy": 79,
+                "color": "blue"
+            },
+            {
+                "posx": 834,
+                "posy": 99,
+                "color": "blue"
+            },
+            {
+                "posx": 633,
+                "posy": 796,
+                "color": "blue"
+            },
+            {
+                "posx": 279,
+                "posy": 311,
+                "color": "blue"
+            },
+            {
+                "posx": 770,
+                "posy": 588,
+                "color": "blue"
+            },
+            {
+                "posx": 78,
+                "posy": 822,
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "posx": 429.09452301631677,
+        "posy": 664.555859518512,
+        "radio": 30,
+        "direccion": 2133,
+        "color": "blue",
+        "energia": 0,
+        "descanso": 0,
+        "inventario": [
+            {
+                "posx": 83,
+                "posy": 810,
+                "color": "blue"
+            },
+            {
+                "posx": 156,
+                "posy": 401,
+                "color": "blue"
+            },
+            {
+                "posx": 263,
+                "posy": 183,
+                "color": "blue"
+            },
+            {
+                "posx": 95,
+                "posy": 281,
+                "color": "blue"
+            },
+            {
+                "posx": 329,
+                "posy": 240,
+                "color": "blue"
+            },
+            {
+                "posx": 254,
+                "posy": 580,
+                "color": "blue"
+            },
+            {
+                "posx": 97,
+                "posy": 135,
+                "color": "blue"
+            },
+            {
+                "posx": 356,
+                "posy": 209,
+                "color": "blue"
+            },
+            {
+                "posx": 482,
+                "posy": 163,
+                "color": "blue"
+            },
+            {
+                "posx": 491,
+                "posy": 746,
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "posx": 507.47867475839496,
+        "posy": 817.1717075831697,
+        "radio": 30,
+        "direccion": 291,
+        "color": "blue",
+        "energia": 0,
+        "descanso": 0,
+        "inventario": [
+            {
+                "posx": 43,
+                "posy": 81,
+                "color": "blue"
+            },
+            {
+                "posx": 327,
+                "posy": 258,
+                "color": "blue"
+            },
+            {
+                "posx": 202,
+                "posy": 367,
+                "color": "blue"
+            },
+            {
+                "posx": 237,
+                "posy": 214,
+                "color": "blue"
+            },
+            {
+                "posx": 352,
+                "posy": 445,
+                "color": "blue"
+            },
+            {
+                "posx": 460,
+                "posy": 240,
+                "color": "blue"
+            },
+            {
+                "posx": 139,
+                "posy": 655,
+                "color": "blue"
+            },
+            {
+                "posx": 318,
+                "posy": 15,
+                "color": "blue"
+            },
+            {
+                "posx": 185,
+                "posy": 517,
+                "color": "blue"
+            },
+            {
+                "posx": 202,
+                "posy": 695,
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "posx": 207.54786672533,
+        "posy": 815.4187122365987,
         "radio": 30,
         "direccion": 405,
         "color": "blue",
@@ -924,60 +924,60 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 150,
-                "posy": 390,
+                "posx": 413,
+                "posy": 37,
                 "color": "blue"
             },
             {
-                "posx": 472,
-                "posy": 580,
+                "posx": 286,
+                "posy": 57,
                 "color": "blue"
             },
             {
-                "posx": 829,
-                "posy": 18,
+                "posx": 785,
+                "posy": 145,
                 "color": "blue"
             },
             {
-                "posx": 546,
-                "posy": 709,
+                "posx": 399,
+                "posy": 317,
                 "color": "blue"
             },
             {
-                "posx": 75,
-                "posy": 54,
+                "posx": 196,
+                "posy": 450,
                 "color": "blue"
             },
             {
-                "posx": 253,
-                "posy": 374,
+                "posx": 145,
+                "posy": 740,
                 "color": "blue"
             },
             {
-                "posx": 542,
-                "posy": 195,
+                "posx": 743,
+                "posy": 460,
                 "color": "blue"
             },
             {
-                "posx": 692,
-                "posy": 387,
+                "posx": 101,
+                "posy": 105,
                 "color": "blue"
             },
             {
-                "posx": 204,
-                "posy": 58,
+                "posx": 226,
+                "posy": 113,
                 "color": "blue"
             },
             {
-                "posx": 311,
-                "posy": 680,
+                "posx": 737,
+                "posy": 703,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 576.7233945640604,
-        "posy": 231.21597010692784,
+        "posx": 711.7976480866113,
+        "posy": 181.3065918767026,
         "radio": 30,
         "direccion": 540,
         "color": "blue",
@@ -985,304 +985,304 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 588,
-                "posy": 22,
-                "color": "blue"
-            },
-            {
-                "posx": 421,
-                "posy": 722,
-                "color": "blue"
-            },
-            {
-                "posx": 52,
-                "posy": 412,
-                "color": "blue"
-            },
-            {
-                "posx": 671,
-                "posy": 593,
-                "color": "blue"
-            },
-            {
-                "posx": 530,
-                "posy": 64,
-                "color": "blue"
-            },
-            {
-                "posx": 654,
+                "posx": 335,
                 "posy": 260,
                 "color": "blue"
             },
             {
-                "posx": 748,
-                "posy": 327,
+                "posx": 140,
+                "posy": 692,
                 "color": "blue"
             },
             {
-                "posx": 179,
-                "posy": 34,
+                "posx": 150,
+                "posy": 571,
+                "color": "blue"
+            },
+            {
+                "posx": 155,
+                "posy": 698,
+                "color": "blue"
+            },
+            {
+                "posx": 409,
+                "posy": 447,
+                "color": "blue"
+            },
+            {
+                "posx": 552,
+                "posy": 407,
+                "color": "blue"
+            },
+            {
+                "posx": 556,
+                "posy": 6,
+                "color": "blue"
+            },
+            {
+                "posx": 551,
+                "posy": 476,
+                "color": "blue"
+            },
+            {
+                "posx": 765,
+                "posy": 516,
+                "color": "blue"
+            },
+            {
+                "posx": 671,
+                "posy": 456,
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "posx": 17.642826528397343,
+        "posy": 588.0289908667205,
+        "radio": 30,
+        "direccion": 529,
+        "color": "blue",
+        "energia": 0,
+        "descanso": 0,
+        "inventario": [
+            {
+                "posx": 100,
+                "posy": 382,
+                "color": "blue"
+            },
+            {
+                "posx": 740,
+                "posy": 156,
+                "color": "blue"
+            },
+            {
+                "posx": 737,
+                "posy": 589,
+                "color": "blue"
+            },
+            {
+                "posx": 478,
+                "posy": 180,
+                "color": "blue"
+            },
+            {
+                "posx": 89,
+                "posy": 33,
+                "color": "blue"
+            },
+            {
+                "posx": 470,
+                "posy": 740,
+                "color": "blue"
+            },
+            {
+                "posx": 585,
+                "posy": 557,
+                "color": "blue"
+            },
+            {
+                "posx": 386,
+                "posy": 533,
+                "color": "blue"
+            },
+            {
+                "posx": 578,
+                "posy": 672,
+                "color": "blue"
+            },
+            {
+                "posx": 511,
+                "posy": 766,
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "posx": 215.91305796069423,
+        "posy": 712.0573199588733,
+        "radio": 30,
+        "direccion": 507,
+        "color": "blue",
+        "energia": 0,
+        "descanso": 0,
+        "inventario": [
+            {
+                "posx": 522,
+                "posy": 335,
                 "color": "blue"
             },
             {
                 "posx": 658,
-                "posy": 338,
+                "posy": 778,
                 "color": "blue"
             },
             {
-                "posx": 387,
-                "posy": 539,
-                "color": "blue"
-            }
-        ]
-    },
-    {
-        "posx": 89.05009474149193,
-        "posy": 566.2572240284364,
-        "radio": 30,
-        "direccion": 349,
-        "color": "blue",
-        "energia": 0,
-        "descanso": 0,
-        "inventario": [
-            {
-                "posx": 745,
-                "posy": 243,
+                "posx": 426,
+                "posy": 558,
                 "color": "blue"
             },
             {
-                "posx": 127,
-                "posy": 246,
+                "posx": 520,
+                "posy": 437,
                 "color": "blue"
             },
             {
-                "posx": 318,
-                "posy": 497,
+                "posx": 0,
+                "posy": 119,
                 "color": "blue"
             },
             {
-                "posx": 86,
-                "posy": 808,
+                "posx": 407,
+                "posy": 698,
                 "color": "blue"
             },
             {
-                "posx": 825,
-                "posy": 87,
+                "posx": 154,
+                "posy": 416,
                 "color": "blue"
             },
             {
-                "posx": 138,
-                "posy": 0,
-                "color": "blue"
-            },
-            {
-                "posx": 479,
-                "posy": 714,
-                "color": "blue"
-            },
-            {
-                "posx": 755,
-                "posy": 209,
-                "color": "blue"
-            },
-            {
-                "posx": 419,
-                "posy": 279,
-                "color": "blue"
-            },
-            {
-                "posx": 420,
-                "posy": 536,
-                "color": "blue"
-            }
-        ]
-    },
-    {
-        "posx": 268.4603713859668,
-        "posy": 837.5408908587459,
-        "radio": 30,
-        "direccion": 147,
-        "color": "blue",
-        "energia": 0,
-        "descanso": 0,
-        "inventario": [
-            {
-                "posx": 179,
-                "posy": 194,
-                "color": "blue"
-            },
-            {
-                "posx": 570,
-                "posy": 732,
-                "color": "blue"
-            },
-            {
-                "posx": 4,
-                "posy": 527,
-                "color": "blue"
-            },
-            {
-                "posx": 282,
-                "posy": 128,
-                "color": "blue"
-            },
-            {
-                "posx": 127,
-                "posy": 677,
-                "color": "blue"
-            },
-            {
-                "posx": 320,
-                "posy": 440,
-                "color": "blue"
-            },
-            {
-                "posx": 142,
-                "posy": 543,
-                "color": "blue"
-            },
-            {
-                "posx": 132,
-                "posy": 290,
-                "color": "blue"
-            },
-            {
-                "posx": 246,
-                "posy": 14,
-                "color": "blue"
-            },
-            {
-                "posx": 378,
-                "posy": 336,
-                "color": "blue"
-            }
-        ]
-    },
-    {
-        "posx": 816.1553102944202,
-        "posy": 439.64242810745066,
-        "radio": 30,
-        "direccion": 441,
-        "color": "blue",
-        "energia": 0,
-        "descanso": 0,
-        "inventario": [
-            {
-                "posx": 121,
-                "posy": 755,
-                "color": "blue"
-            },
-            {
-                "posx": 672,
-                "posy": 595,
-                "color": "blue"
-            },
-            {
-                "posx": 633,
-                "posy": 503,
-                "color": "blue"
-            },
-            {
-                "posx": 316,
-                "posy": 790,
-                "color": "blue"
-            },
-            {
-                "posx": 616,
-                "posy": 439,
-                "color": "blue"
-            },
-            {
-                "posx": 450,
-                "posy": 57,
-                "color": "blue"
-            },
-            {
-                "posx": 321,
-                "posy": 544,
-                "color": "blue"
-            },
-            {
-                "posx": 295,
-                "posy": 302,
-                "color": "blue"
-            },
-            {
-                "posx": 801,
-                "posy": 331,
-                "color": "blue"
-            },
-            {
-                "posx": 424,
-                "posy": 337,
-                "color": "blue"
-            }
-        ]
-    },
-    {
-        "posx": 801.9556246356003,
-        "posy": 185.2768767229245,
-        "radio": 30,
-        "direccion": 6,
-        "color": "blue",
-        "energia": 0,
-        "descanso": 0,
-        "inventario": [
-            {
-                "posx": 173,
-                "posy": 269,
-                "color": "blue"
-            },
-            {
-                "posx": 590,
-                "posy": 196,
-                "color": "blue"
-            },
-            {
-                "posx": 129,
-                "posy": 451,
-                "color": "blue"
-            },
-            {
-                "posx": 120,
+                "posx": 241,
                 "posy": 420,
                 "color": "blue"
             },
             {
-                "posx": 230,
-                "posy": 716,
+                "posx": 606,
+                "posy": 405,
                 "color": "blue"
             },
             {
-                "posx": 108,
-                "posy": 289,
-                "color": "blue"
-            },
-            {
-                "posx": 823,
-                "posy": 520,
-                "color": "blue"
-            },
-            {
-                "posx": 158,
-                "posy": 609,
-                "color": "blue"
-            },
-            {
-                "posx": 271,
-                "posy": 721,
-                "color": "blue"
-            },
-            {
-                "posx": 421,
-                "posy": 836,
+                "posx": 722,
+                "posy": 372,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 714.8460088638601,
-        "posy": 770.3523663814965,
+        "posx": 761.2868795594325,
+        "posy": 505.43520526987896,
+        "radio": 30,
+        "direccion": 801,
+        "color": "blue",
+        "energia": 0,
+        "descanso": 0,
+        "inventario": [
+            {
+                "posx": 827,
+                "posy": 779,
+                "color": "blue"
+            },
+            {
+                "posx": 532,
+                "posy": 46,
+                "color": "blue"
+            },
+            {
+                "posx": 197,
+                "posy": 450,
+                "color": "blue"
+            },
+            {
+                "posx": 219,
+                "posy": 643,
+                "color": "blue"
+            },
+            {
+                "posx": 21,
+                "posy": 587,
+                "color": "blue"
+            },
+            {
+                "posx": 409,
+                "posy": 497,
+                "color": "blue"
+            },
+            {
+                "posx": 241,
+                "posy": 266,
+                "color": "blue"
+            },
+            {
+                "posx": 429,
+                "posy": 1,
+                "color": "blue"
+            },
+            {
+                "posx": 140,
+                "posy": 828,
+                "color": "blue"
+            },
+            {
+                "posx": 416,
+                "posy": 221,
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "posx": 757.3207200557042,
+        "posy": 111.48976728921798,
+        "radio": 30,
+        "direccion": 186,
+        "color": "blue",
+        "energia": 0,
+        "descanso": 0,
+        "inventario": [
+            {
+                "posx": 151,
+                "posy": 2,
+                "color": "blue"
+            },
+            {
+                "posx": 70,
+                "posy": 147,
+                "color": "blue"
+            },
+            {
+                "posx": 301,
+                "posy": 526,
+                "color": "blue"
+            },
+            {
+                "posx": 112,
+                "posy": 498,
+                "color": "blue"
+            },
+            {
+                "posx": 177,
+                "posy": 154,
+                "color": "blue"
+            },
+            {
+                "posx": 692,
+                "posy": 716,
+                "color": "blue"
+            },
+            {
+                "posx": 117,
+                "posy": 398,
+                "color": "blue"
+            },
+            {
+                "posx": 551,
+                "posy": 239,
+                "color": "blue"
+            },
+            {
+                "posx": 277,
+                "posy": 162,
+                "color": "blue"
+            },
+            {
+                "posx": 569,
+                "posy": 284,
+                "color": "blue"
+            }
+        ]
+    },
+    {
+        "posx": 607.1314861709359,
+        "posy": 674.7825929118815,
         "radio": 30,
         "direccion": 739,
         "color": "blue",
@@ -1290,60 +1290,60 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 255,
-                "posy": 302,
+                "posx": 14,
+                "posy": 165,
                 "color": "blue"
             },
             {
-                "posx": 234,
-                "posy": 142,
+                "posx": 247,
+                "posy": 35,
                 "color": "blue"
             },
             {
-                "posx": 788,
-                "posy": 819,
+                "posx": 733,
+                "posy": 164,
                 "color": "blue"
             },
             {
-                "posx": 580,
-                "posy": 389,
+                "posx": 295,
+                "posy": 14,
                 "color": "blue"
             },
             {
-                "posx": 551,
-                "posy": 592,
+                "posx": 756,
+                "posy": 495,
                 "color": "blue"
             },
             {
-                "posx": 308,
-                "posy": 790,
+                "posx": 486,
+                "posy": 677,
                 "color": "blue"
             },
             {
-                "posx": 115,
-                "posy": 324,
+                "posx": 652,
+                "posy": 678,
                 "color": "blue"
             },
             {
-                "posx": 34,
-                "posy": 743,
+                "posx": 122,
+                "posy": 295,
                 "color": "blue"
             },
             {
-                "posx": 88,
-                "posy": 535,
+                "posx": 539,
+                "posy": 346,
                 "color": "blue"
             },
             {
-                "posx": 509,
-                "posy": 353,
+                "posx": 259,
+                "posy": 766,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 511.69069300675983,
-        "posy": 713.7774475601826,
+        "posx": 642.895239577063,
+        "posy": 654.4363407346253,
         "radio": 30,
         "direccion": 364,
         "color": "blue",
@@ -1351,60 +1351,60 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 601,
-                "posy": 118,
-                "color": "blue"
-            },
-            {
-                "posx": 308,
-                "posy": 753,
-                "color": "blue"
-            },
-            {
-                "posx": 251,
-                "posy": 357,
+                "posx": 325,
+                "posy": 684,
                 "color": "blue"
             },
             {
                 "posx": 215,
-                "posy": 675,
+                "posy": 745,
                 "color": "blue"
             },
             {
-                "posx": 262,
-                "posy": 71,
+                "posx": 238,
+                "posy": 31,
                 "color": "blue"
             },
             {
-                "posx": 58,
-                "posy": 421,
+                "posx": 570,
+                "posy": 538,
                 "color": "blue"
             },
             {
-                "posx": 93,
-                "posy": 94,
+                "posx": 120,
+                "posy": 754,
                 "color": "blue"
             },
             {
-                "posx": 646,
-                "posy": 30,
+                "posx": 606,
+                "posy": 606,
                 "color": "blue"
             },
             {
-                "posx": 721,
-                "posy": 611,
+                "posx": 211,
+                "posy": 511,
                 "color": "blue"
             },
             {
-                "posx": 810,
-                "posy": 339,
+                "posx": 479,
+                "posy": 741,
+                "color": "blue"
+            },
+            {
+                "posx": 368,
+                "posy": 45,
+                "color": "blue"
+            },
+            {
+                "posx": 536,
+                "posy": 325,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 692.8836175730412,
-        "posy": 432.7908982698768,
+        "posx": 549.9862374658151,
+        "posy": 450.57681287927375,
         "radio": 30,
         "direccion": 757,
         "color": "blue",
@@ -1412,121 +1412,121 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 98,
-                "posy": 21,
+                "posx": 551,
+                "posy": 94,
                 "color": "blue"
             },
             {
-                "posx": 38,
-                "posy": 512,
+                "posx": 57,
+                "posy": 46,
                 "color": "blue"
             },
             {
-                "posx": 23,
-                "posy": 119,
+                "posx": 289,
+                "posy": 193,
                 "color": "blue"
             },
             {
-                "posx": 137,
-                "posy": 811,
+                "posx": 241,
+                "posy": 135,
                 "color": "blue"
             },
             {
-                "posx": 502,
-                "posy": 133,
+                "posx": 833,
+                "posy": 518,
                 "color": "blue"
             },
             {
-                "posx": 779,
-                "posy": 252,
+                "posx": 465,
+                "posy": 257,
                 "color": "blue"
             },
             {
-                "posx": 261,
-                "posy": 73,
+                "posx": 352,
+                "posy": 368,
                 "color": "blue"
             },
             {
-                "posx": 509,
-                "posy": 566,
+                "posx": 723,
+                "posy": 624,
                 "color": "blue"
             },
             {
-                "posx": 213,
-                "posy": 277,
+                "posx": 406,
+                "posy": 107,
                 "color": "blue"
             },
             {
-                "posx": 758,
-                "posy": 451,
+                "posx": 89,
+                "posy": 759,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 197.18982609235837,
-        "posy": 744.7172864133736,
+        "posx": 129.4439927841867,
+        "posy": 816.213635241707,
         "radio": 30,
-        "direccion": 203,
+        "direccion": 563,
         "color": "blue",
         "energia": 0,
         "descanso": 0,
         "inventario": [
             {
-                "posx": 230,
-                "posy": 545,
+                "posx": 295,
+                "posy": 290,
                 "color": "blue"
             },
             {
-                "posx": 523,
-                "posy": 787,
+                "posx": 702,
+                "posy": 286,
                 "color": "blue"
             },
             {
-                "posx": 449,
-                "posy": 313,
+                "posx": 177,
+                "posy": 452,
                 "color": "blue"
             },
             {
-                "posx": 747,
-                "posy": 52,
+                "posx": 335,
+                "posy": 186,
                 "color": "blue"
             },
             {
-                "posx": 655,
-                "posy": 304,
+                "posx": 637,
+                "posy": 521,
                 "color": "blue"
             },
             {
-                "posx": 668,
-                "posy": 735,
+                "posx": 814,
+                "posy": 69,
                 "color": "blue"
             },
             {
-                "posx": 296,
-                "posy": 701,
+                "posx": 410,
+                "posy": 713,
                 "color": "blue"
             },
             {
-                "posx": 179,
-                "posy": 235,
+                "posx": 546,
+                "posy": 425,
                 "color": "blue"
             },
             {
-                "posx": 806,
-                "posy": 354,
+                "posx": 779,
+                "posy": 437,
                 "color": "blue"
             },
             {
-                "posx": 539,
-                "posy": 409,
+                "posx": 640,
+                "posy": 595,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 835.9334150842492,
-        "posy": 110.67396275977856,
+        "posx": 691.938827908752,
+        "posy": 111.92250757585023,
         "radio": 30,
         "direccion": 2108,
         "color": "blue",
@@ -1534,60 +1534,60 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 776,
-                "posy": 556,
+                "posx": 587,
+                "posy": 689,
                 "color": "blue"
             },
             {
-                "posx": 213,
-                "posy": 649,
-                "color": "blue"
-            },
-            {
-                "posx": 185,
-                "posy": 114,
-                "color": "blue"
-            },
-            {
-                "posx": 755,
-                "posy": 206,
-                "color": "blue"
-            },
-            {
-                "posx": 357,
-                "posy": 591,
-                "color": "blue"
-            },
-            {
-                "posx": 241,
-                "posy": 772,
-                "color": "blue"
-            },
-            {
-                "posx": 166,
+                "posx": 749,
                 "posy": 346,
                 "color": "blue"
             },
             {
-                "posx": 185,
-                "posy": 281,
+                "posx": 154,
+                "posy": 278,
                 "color": "blue"
             },
             {
-                "posx": 94,
-                "posy": 582,
+                "posx": 819,
+                "posy": 91,
                 "color": "blue"
             },
             {
-                "posx": 64,
-                "posy": 840,
+                "posx": 532,
+                "posy": 240,
+                "color": "blue"
+            },
+            {
+                "posx": 669,
+                "posy": 225,
+                "color": "blue"
+            },
+            {
+                "posx": 775,
+                "posy": 362,
+                "color": "blue"
+            },
+            {
+                "posx": 613,
+                "posy": 621,
+                "color": "blue"
+            },
+            {
+                "posx": 51,
+                "posy": 249,
+                "color": "blue"
+            },
+            {
+                "posx": 332,
+                "posy": 562,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 122.6058544842367,
-        "posy": 378.98706352894953,
+        "posx": 27.516988664699724,
+        "posy": 487.12636072083353,
         "radio": 30,
         "direccion": 373,
         "color": "blue",
@@ -1595,60 +1595,60 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 773,
-                "posy": 792,
+                "posx": 648,
+                "posy": 672,
                 "color": "blue"
             },
             {
-                "posx": 585,
-                "posy": 140,
+                "posx": 268,
+                "posy": 102,
                 "color": "blue"
             },
             {
-                "posx": 50,
-                "posy": 364,
+                "posx": 679,
+                "posy": 505,
                 "color": "blue"
             },
             {
-                "posx": 29,
-                "posy": 695,
+                "posx": 233,
+                "posy": 387,
                 "color": "blue"
             },
             {
-                "posx": 272,
-                "posy": 700,
+                "posx": 45,
+                "posy": 742,
                 "color": "blue"
             },
             {
-                "posx": 306,
-                "posy": 601,
+                "posx": 486,
+                "posy": 705,
                 "color": "blue"
             },
             {
-                "posx": 535,
-                "posy": 170,
+                "posx": 569,
+                "posy": 442,
                 "color": "blue"
             },
             {
-                "posx": 235,
-                "posy": 721,
+                "posx": 662,
+                "posy": 112,
                 "color": "blue"
             },
             {
-                "posx": 568,
-                "posy": 665,
+                "posx": 9,
+                "posy": 592,
                 "color": "blue"
             },
             {
-                "posx": 482,
-                "posy": 414,
+                "posx": 808,
+                "posy": 345,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 345.47806642127125,
-        "posy": 287.6071795073584,
+        "posx": 282.09357349793663,
+        "posy": 416.9068549008142,
         "radio": 30,
         "direccion": 423,
         "color": "blue",
@@ -1656,60 +1656,60 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 702,
-                "posy": 177,
+                "posx": 792,
+                "posy": 92,
                 "color": "blue"
             },
             {
-                "posx": 329,
-                "posy": 245,
+                "posx": 776,
+                "posy": 665,
                 "color": "blue"
             },
             {
-                "posx": 644,
-                "posy": 77,
+                "posx": 197,
+                "posy": 32,
                 "color": "blue"
             },
             {
-                "posx": 761,
+                "posx": 129,
+                "posy": 334,
+                "color": "blue"
+            },
+            {
+                "posx": 148,
+                "posy": 8,
+                "color": "blue"
+            },
+            {
+                "posx": 365,
+                "posy": 222,
+                "color": "blue"
+            },
+            {
+                "posx": 630,
+                "posy": 9,
+                "color": "blue"
+            },
+            {
+                "posx": 822,
+                "posy": 827,
+                "color": "blue"
+            },
+            {
+                "posx": 179,
+                "posy": 346,
+                "color": "blue"
+            },
+            {
+                "posx": 153,
                 "posy": 91,
-                "color": "blue"
-            },
-            {
-                "posx": 747,
-                "posy": 202,
-                "color": "blue"
-            },
-            {
-                "posx": 220,
-                "posy": 396,
-                "color": "blue"
-            },
-            {
-                "posx": 91,
-                "posy": 526,
-                "color": "blue"
-            },
-            {
-                "posx": 704,
-                "posy": 46,
-                "color": "blue"
-            },
-            {
-                "posx": 826,
-                "posy": 815,
-                "color": "blue"
-            },
-            {
-                "posx": 212,
-                "posy": 305,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 637.5638362513422,
-        "posy": 578.1777059538189,
+        "posx": 505.33455253051386,
+        "posy": 521.156512291508,
         "radio": 30,
         "direccion": 657,
         "color": "blue",
@@ -1717,60 +1717,60 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 279,
-                "posy": 66,
+                "posx": 813,
+                "posy": 479,
                 "color": "blue"
             },
             {
-                "posx": 389,
-                "posy": 669,
+                "posx": 555,
+                "posy": 108,
                 "color": "blue"
             },
             {
-                "posx": 259,
-                "posy": 2,
-                "color": "blue"
-            },
-            {
-                "posx": 637,
+                "posx": 118,
                 "posy": 246,
                 "color": "blue"
             },
             {
-                "posx": 114,
-                "posy": 577,
+                "posx": 312,
+                "posy": 797,
                 "color": "blue"
             },
             {
-                "posx": 506,
-                "posy": 687,
+                "posx": 260,
+                "posy": 759,
                 "color": "blue"
             },
             {
-                "posx": 277,
-                "posy": 452,
+                "posx": 425,
+                "posy": 561,
                 "color": "blue"
             },
             {
-                "posx": 769,
-                "posy": 829,
+                "posx": 218,
+                "posy": 204,
                 "color": "blue"
             },
             {
-                "posx": 332,
-                "posy": 584,
+                "posx": 703,
+                "posy": 493,
                 "color": "blue"
             },
             {
-                "posx": 693,
-                "posy": 1,
+                "posx": 168,
+                "posy": 414,
+                "color": "blue"
+            },
+            {
+                "posx": 31,
+                "posy": 438,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 268.1500506331427,
-        "posy": 562.9311746503814,
+        "posx": 375.8674541661572,
+        "posy": 658.4977010919507,
         "radio": 30,
         "direccion": 384,
         "color": "blue",
@@ -1778,121 +1778,121 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 166,
-                "posy": 509,
+                "posx": 39,
+                "posy": 81,
                 "color": "blue"
             },
             {
-                "posx": 142,
-                "posy": 777,
+                "posx": 685,
+                "posy": 219,
                 "color": "blue"
             },
             {
-                "posx": 634,
-                "posy": 466,
+                "posx": 252,
+                "posy": 159,
                 "color": "blue"
             },
             {
-                "posx": 703,
-                "posy": 31,
+                "posx": 644,
+                "posy": 258,
                 "color": "blue"
             },
             {
-                "posx": 453,
-                "posy": 494,
+                "posx": 274,
+                "posy": 146,
                 "color": "blue"
             },
             {
-                "posx": 122,
-                "posy": 479,
+                "posx": 466,
+                "posy": 812,
                 "color": "blue"
             },
             {
-                "posx": 126,
-                "posy": 91,
+                "posx": 454,
+                "posy": 238,
                 "color": "blue"
             },
             {
-                "posx": 40,
-                "posy": 646,
+                "posx": 26,
+                "posy": 263,
                 "color": "blue"
             },
             {
-                "posx": 219,
-                "posy": 504,
+                "posx": 725,
+                "posy": 547,
                 "color": "blue"
             },
             {
-                "posx": 564,
-                "posy": 816,
+                "posx": 156,
+                "posy": 821,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 422.09509321744804,
-        "posy": 24.213587943879133,
+        "posx": 367.34435386643,
+        "posy": 106.70534309650758,
         "radio": 30,
-        "direccion": 312,
+        "direccion": 492,
         "color": "blue",
         "energia": 0,
         "descanso": 0,
         "inventario": [
             {
-                "posx": 571,
-                "posy": 822,
+                "posx": 162,
+                "posy": 115,
                 "color": "blue"
             },
             {
-                "posx": 281,
-                "posy": 647,
+                "posx": 59,
+                "posy": 352,
                 "color": "blue"
             },
             {
-                "posx": 131,
-                "posy": 338,
-                "color": "blue"
-            },
-            {
-                "posx": 618,
-                "posy": 796,
-                "color": "blue"
-            },
-            {
-                "posx": 81,
-                "posy": 614,
-                "color": "blue"
-            },
-            {
-                "posx": 353,
-                "posy": 96,
-                "color": "blue"
-            },
-            {
-                "posx": 396,
-                "posy": 521,
-                "color": "blue"
-            },
-            {
-                "posx": 423,
-                "posy": 801,
-                "color": "blue"
-            },
-            {
-                "posx": 210,
+                "posx": 335,
                 "posy": 466,
                 "color": "blue"
             },
             {
-                "posx": 402,
-                "posy": 93,
+                "posx": 277,
+                "posy": 271,
+                "color": "blue"
+            },
+            {
+                "posx": 808,
+                "posy": 362,
+                "color": "blue"
+            },
+            {
+                "posx": 555,
+                "posy": 339,
+                "color": "blue"
+            },
+            {
+                "posx": 159,
+                "posy": 353,
+                "color": "blue"
+            },
+            {
+                "posx": 162,
+                "posy": 224,
+                "color": "blue"
+            },
+            {
+                "posx": 703,
+                "posy": 286,
+                "color": "blue"
+            },
+            {
+                "posx": 43,
+                "posy": 275,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 271.55824523671254,
-        "posy": 579.8719624882935,
+        "posx": 384.9944829800261,
+        "posy": 491.16897512798755,
         "radio": 30,
         "direccion": 835,
         "color": "blue",
@@ -1900,60 +1900,60 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 469,
-                "posy": 590,
+                "posx": 597,
+                "posy": 144,
                 "color": "blue"
             },
             {
-                "posx": 73,
-                "posy": 836,
+                "posx": 152,
+                "posy": 622,
                 "color": "blue"
             },
             {
-                "posx": 158,
-                "posy": 457,
+                "posx": 87,
+                "posy": 380,
                 "color": "blue"
             },
             {
-                "posx": 774,
-                "posy": 324,
+                "posx": 382,
+                "posy": 450,
                 "color": "blue"
             },
             {
-                "posx": 284,
-                "posy": 746,
+                "posx": 264,
+                "posy": 320,
                 "color": "blue"
             },
             {
-                "posx": 433,
-                "posy": 277,
+                "posx": 419,
+                "posy": 229,
                 "color": "blue"
             },
             {
-                "posx": 303,
-                "posy": 349,
+                "posx": 648,
+                "posy": 759,
                 "color": "blue"
             },
             {
-                "posx": 750,
-                "posy": 784,
+                "posx": 683,
+                "posy": 557,
                 "color": "blue"
             },
             {
-                "posx": 728,
-                "posy": 676,
+                "posx": 212,
+                "posy": 125,
                 "color": "blue"
             },
             {
-                "posx": 530,
-                "posy": 276,
+                "posx": 123,
+                "posy": 13,
                 "color": "blue"
             }
         ]
     },
     {
-        "posx": 85.56933905435835,
-        "posy": 127.87097503387734,
+        "posx": 200.54756334654166,
+        "posy": 214.56588802545022,
         "radio": 30,
         "direccion": 541,
         "color": "blue",
@@ -1961,53 +1961,53 @@
         "descanso": 0,
         "inventario": [
             {
-                "posx": 465,
-                "posy": 454,
+                "posx": 540,
+                "posy": 419,
                 "color": "blue"
             },
             {
-                "posx": 502,
-                "posy": 428,
+                "posx": 688,
+                "posy": 497,
                 "color": "blue"
             },
             {
-                "posx": 733,
-                "posy": 410,
+                "posx": 311,
+                "posy": 543,
                 "color": "blue"
             },
             {
-                "posx": 346,
-                "posy": 43,
+                "posx": 0,
+                "posy": 786,
                 "color": "blue"
             },
             {
-                "posx": 476,
-                "posy": 472,
+                "posx": 771,
+                "posy": 802,
                 "color": "blue"
             },
             {
-                "posx": 24,
-                "posy": 98,
+                "posx": 463,
+                "posy": 136,
                 "color": "blue"
             },
             {
-                "posx": 354,
-                "posy": 187,
+                "posx": 4,
+                "posy": 9,
                 "color": "blue"
             },
             {
-                "posx": 832,
-                "posy": 839,
+                "posx": 718,
+                "posy": 338,
                 "color": "blue"
             },
             {
-                "posx": 743,
-                "posy": 43,
+                "posx": 57,
+                "posy": 641,
                 "color": "blue"
             },
             {
-                "posx": 101,
-                "posy": 387,
+                "posx": 545,
+                "posy": 249,
                 "color": "blue"
             }
         ]
